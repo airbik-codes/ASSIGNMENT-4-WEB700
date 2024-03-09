@@ -1,0 +1,153 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* App Background */
+body, html {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #a6f1fa;
+}
+
+/* Navigation Bar */
+.bg-light {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Navigation "Brand" */
+.navbar-light .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    color: #a6f1fa;
+    text-shadow: 2px 2px #0f2027;
+}
+
+/* Navigation "Link" */
+.navbar-nav .nav-link {
+    font-family: 'Orbitron', sans-serif;
+    color: #a6f1fa;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0f2027;
+}
+
+/* "Primary" Button */
+.btn-primary {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+/* Table cells inside "odd" numbered table rows */
+table tr:nth-child(odd) td {
+    background: #0f0c29;
+}
+
+/* All "Heading" elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+    color: #a6f1fa;
+    text-shadow: 2px 2px #0f2027;
+}
+
+/* All "Anchor" elements (HTML Links) */
+a {
+    font-family: 'Orbitron', sans-serif;
+    color: #a6f1fa;
+}
+
+a:hover {
+    color: #0f2027;
+}
+
+/* Fieldset "Legends" */
+legend {
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px 0;
+    color: #a6f1fa;
+    text-shadow: 2px 2px #0f2027;
+}
+
+/* Style for form fieldset */
+form fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for form legend */
+form fieldset legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #a6f1fa;
+}
+
+/* Style for form inputs */
+form .input-box input {
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style for form select */
+form .select-box select {
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for form buttons */
+form button {
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px 20px;
+    background-color: #0f0c29;
+    color: #a6f1fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #24243e;
+}
+
+/* Style for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+}
+
+/* Style for table headers */
+table th {
+    background-color: #0f0c29;
+    color: #a6f1fa;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style for table data cells */
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style for table caption */
+table caption {
+    font-size: 1.5em;
+    color: #a6f1fa;
+    margin-bottom: 0.75em;
+}
